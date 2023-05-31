@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min & Max Number</title>
+</head>
+<body>
+    <input type="number" id="min" placeholder="Enter Minimum Number">
+    <input type="number" id="max" placeholder="Enter Maximum Number">
+    <button onclick="enter()">Enter</button>
+
+    <script>
+        function enter(){
+            var min = document.getElementById("min").value;
+            var max = document.getElementById("max").value;
+            for (var i=min;i<=max;i++){
+                console.log(i);
+            }
+        }
+    </script>
+</body>
+</html>
